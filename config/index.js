@@ -9,7 +9,9 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: [],
+  plugins: [
+
+  ],
   defineConstants: {
   },
   copy: {
@@ -45,6 +47,7 @@ const config = {
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
+    esnextModules: ['taro-ui'],
     postcss: {
       autoprefixer: {
         enable: true,

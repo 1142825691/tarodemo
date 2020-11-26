@@ -34,7 +34,7 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": false
   },
   "compileType": "miniprogram",
   "simulatorType": "wechat",
